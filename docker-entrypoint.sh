@@ -22,11 +22,11 @@ wait_for() {
 
 wait_for
 
-if [ ! -f "$MIGRATED" ]; then
-  npm run db:migrations
-  npm run db:seeds
-  touch "$MIGRATED"
-  sleep 1
-fi
+#if [ ! -f "$MIGRATED" ]; then
+  #npm run db:migrations
+  #npm run db:seeds
+  #touch "$MIGRATED"
+ # sleep 1
+#fi
 
 npm run start
