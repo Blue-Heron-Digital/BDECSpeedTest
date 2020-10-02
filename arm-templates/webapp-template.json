@@ -71,19 +71,23 @@
                             "value": "production"
                         },
                         {
-                            "name": "PIECEWISE_VIZ_DB_HOST",
+                            "name" : "PIECEWISE_PORT",
+                            "value" : "80"
+                        },
+                        {
+                            "name": "PIECEWISE_DB_HOST",
                             "value": "piecewise-db.postgres.database.azure.com"
                         },
                         {
-                            "name": "PIECEWISE_VIZ_DB_USER" ,
+                            "name": "PIECEWISE_DB_USERNAME" ,
                             "value": "piecewise@piecewise-db"
                         },
                         {
-                            "name": "PIECEWISE_VIZ_DB_PASSWORD" ,
+                            "name": "PIECEWISE_DB_PASSWORD" ,
                             "value": "piecewise"
                         },
                         {
-                            "name": "PIECEWISE_VIZ_DB_DATABASE",
+                            "name": "PIECEWISE_DB_DATABASE",
                             "value": "piecewise"
                         },
                         {
