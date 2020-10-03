@@ -52,7 +52,7 @@ stages:
         imageName: '$(imageName):$(Build.BuildId)'
 
 # Staging release
-- stage: Staging
+- stage: Depoy
   jobs:
   - job: Release
     pool:
