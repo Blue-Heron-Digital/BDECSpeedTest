@@ -33,28 +33,13 @@
             "type": "String"
         },
         "PIECEWISE_DB_HOST" : {
-            "reference": {
-                "keyVault": {
-                    "id": "/subscriptions/c0a93b39-e4be-49b0-81b7-01b81860a180/resourceGroups/piecewise-pre-env/providers/Microsoft.KeyVault/vaults/piecewise-keyvault"
-                },
-                "secretName": "PIECEWISE-DB-HOST"
-            }
+            "type": "securestring"
         },
         "PIECEWISE_DB_USERNAME" : {
-            "reference": {
-                "keyVault": {
-                    "id": "/subscriptions/c0a93b39-e4be-49b0-81b7-01b81860a180/resourceGroups/piecewise-pre-env/providers/Microsoft.KeyVault/vaults/piecewise-keyvault"
-                },
-               "secretName": "PIECEWISE-DB-USERNAME"
-            }
+            "type": "securestring"
         },
         "PIECEWISE_DB_PASSWORD" : {
-             "reference": {
-                 "keyVault": {
-                     "id": "/subscriptions/c0a93b39-e4be-49b0-81b7-01b81860a180/resourceGroups/piecewise-pre-env/providers/Microsoft.KeyVault/vaults/piecewise-keyvault"
-                 },
-                 "secretName": "PIECEWISE-DB-PASSWORD"
-            }
+            "type": "securestring"
         }
     },
     "resources": [
