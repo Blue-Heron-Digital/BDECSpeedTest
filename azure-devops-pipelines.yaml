@@ -67,6 +67,7 @@ stages:
         resourceGroupName: '$(rgName)'
         location: '$(location)'
         csmFile: '$(Pipeline.Workspace)/**/webapp-template.json'
+        csmParametersFile: '$(Pipeline.Workspace)/**/webapp-parameters.json'
         overrideParameters: '-webAppName $(webAppName) -hostingPlanName $(webAppName) -appInsightsLocation "$(location)" -sku "S1 Standard" -registryName $(acrName) -registryLocation "$(location)" -registrySku standard -imageName $(imageName):$(Build.BuildId)'
 
     # Deploy App Service
