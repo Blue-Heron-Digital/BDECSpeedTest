@@ -84,6 +84,14 @@
                             "value" : "80"
                         },
                         {
+                            "name": "PIECEWISE_ADMIN_USERNAME" ,
+                            "value": "[parameters('PIECEWISE_ADMIN_USERNAME')]"
+                        },
+                        {
+                            "name": "PIECEWISE_ADMIN_PASSWORD" ,
+                            "value": "[parameters('PIECEWISE_ADMIN_PASSWORD')]"
+                        },
+                        {
                             "name": "PIECEWISE_DB_HOST",
                             "value": "[parameters('PIECEWISE_DB_HOST')]"
                         },
