@@ -32,6 +32,15 @@
             "defaultValue": "",
             "type": "String"
         },
+        "PIECEWISE_ADMIN_USERNAME" : {
+            "type": "securestring"
+        },
+        "PIECEWISE_ADMIN_PASSWORD" : {
+            "type": "securestring"
+        },
+        "PIECEWISE_DB_USERNAME" : {
+            "type": "securestring"
+        },
         "PIECEWISE_DB_HOST" : {
             "type": "securestring"
         },
