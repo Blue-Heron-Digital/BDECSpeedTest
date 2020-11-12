@@ -96,7 +96,7 @@ export default function controller(submissions, thisUser) {
         };
         ctx.response.status = 200;
       } catch (err) {
-        ctx.throw(400, `Failed to parse query: ${err}`);
+        ctx.throw(400, `Owen Failed to parse query: ${err}`);
       }
     },
   );
