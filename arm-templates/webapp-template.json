@@ -44,9 +44,6 @@
         "PIECEWISE_DB_HOST" : {
             "type": "securestring"
         },
-        "PIECEWISE_DB_USERNAME" : {
-            "type": "securestring"
-        },
         "PIECEWISE_DB_PASSWORD" : {
             "type": "securestring"
         }
@@ -127,7 +124,7 @@
                         {
                             "name": "PIECEWISE_VIEWER_PASSWORD",
                             "value": "default_password"
-                        },
+                        }
                         
                     ],
                     "appCommandLine": "[parameters('startupCommand')]",
