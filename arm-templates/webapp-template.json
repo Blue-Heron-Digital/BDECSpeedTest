@@ -119,7 +119,16 @@
                         {
                             "name": "PIECEWISE_DB_PORT",
                             "value": "5432"
-                        }                        
+                        },
+                        {
+                            "name": "PIECEWISE_VIEWER_USERNAME",
+                            "value": "viewer"
+                        },
+                        {
+                            "name": "PIECEWISE_VIEWER_PASSWORD",
+                            "value": "default_password"
+                        },
+                        
                     ],
                     "appCommandLine": "[parameters('startupCommand')]",
                     "linuxFxVersion": "[concat('DOCKER|', reference(concat('Microsoft.ContainerRegistry/registries/', parameters('registryName'))).loginServer, '/', parameters('imageName'))]"
