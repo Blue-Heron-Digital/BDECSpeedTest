@@ -60,7 +60,7 @@ export default function controller(submissions, thisUser) {
 
   router.get(
     '/submissions',
-    thisUser.can('access private pages'),
+    /*thisUser.can('access private pages'),*/
     async ctx => {
       log.debug(`Retrieving submissions.`);
       let res;
