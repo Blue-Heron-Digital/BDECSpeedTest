@@ -10,7 +10,7 @@ variables:
   acrName: 'piecewise'
   rgName: 'piecewise-pre-env'
   imageName: 'apps/piecewise'
-  webAppName: 'piecewise-app-test'
+  webAppName: 'piecewise-app'
   
 stages:
 
