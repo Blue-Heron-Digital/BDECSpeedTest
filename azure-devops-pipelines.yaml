@@ -5,12 +5,12 @@ trigger:
 variables:
   buildConfiguration: 'Release'
   location: 'East US'
-  azureSubscriptionEndpoint: 'AzureSC'
+  azureSubscriptionEndpoint: 'PiecewiseSC'
   acrHostName: 'piecewise.azurecr.io'
   acrName: 'piecewise'
   rgName: 'piecewise-pre-env'
   imageName: 'apps/piecewise'
-  webAppName: 'piecewise-app'
+  webAppName: 'piecewise-app-test'
   
 stages:
 
